@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+PyJWT
+requests
+flask
+pytest
+=======
+Flask
+click
+asyncio
+htmx
+python-dotenv
+>>>>>>> b3a8af69ae4034d74ed80069018d4326eda0d242

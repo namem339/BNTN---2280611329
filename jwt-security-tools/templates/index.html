@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+<form method="post">
+  <label>Target (host or CIDR)</label>
+  <input name="target" placeholder="192.168.1.1 or 192.168.1.0/24" required>
+  <label>Ports (optional, comma-separated)</label>
+  <input name="ports" placeholder="80,443,22">
+  <label>Email report to (optional)</label>
+  <input name="email" placeholder="you@example.com">
+  <button type="submit">Scan</button>
+</form>
+{% endblock %}

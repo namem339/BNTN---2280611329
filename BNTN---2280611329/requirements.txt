@@ -1,0 +1,5 @@
+Flask
+click
+asyncio
+htmx
+python-dotenv
